@@ -1,0 +1,21 @@
+# what is an Optimization Model?---------------consider you are a theft
+- an objective function that is to maximized or minimized------- maximum the value that you can take from the house
+- constrain: the limited weight that i can take by my bag
+  
+## knapsack Problem:
+- 0/1 Knapsack Problem:
+    - each item is represented by a pair <value,weight>
+    - the knapsack can accommodate items with a total weight no more than w;
+    - A vector L , length n , represent a set of item.
+    - A vector V , length n, inidcate whether each item is taken or not
+    
+## If the worst of a problem is not exponential , thereis no better solution for this problem.
+- use greedy algorithm :
+    - the complexity will be nlogn
+    - steps:
+      1) sort for the best
+      2) choose from the set that is not excceed cost .
+      
+### why greedy not always the best solution for the probklem , 
+  - regulation : always increase, no decrease, if only a way to decrease, stop on a peak 
+  - the peak stop is not the glob peak for the solution
