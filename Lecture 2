@@ -1,0 +1,20 @@
+relevant reading : chapter13 of "Introduction to computation and programming using Python";
+
+# Brute Force Algorithm
+- enumerate all possible combinations of items(value)
+- Remove all the combinations whose total units exceeds the allowed weight
+- choose the best value
+#Search Tree Implementation
+- start from a root node
+- left chid (take )
+- right child(not take)
+- apply recursively to non-leaf children
+### cons: duplicate computations on same elements ---> cause waste time consumption
+
+
+# better solution: Dynamic Programming
+- why it can be faster?
+    - it use memoization to store the answer, when the node is needed, only need to search answer in the memo.
+- when to use DP
+  - optimal structure-- a globally optimal solution can be found by combinning optimal solutions to local subproblems
+  - overlapping subproblems: finding an optimal solution involve solving the same problem multiple times
